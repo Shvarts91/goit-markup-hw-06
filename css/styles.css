@@ -24,7 +24,7 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 p {
     line-height: 1.5;
@@ -130,7 +130,7 @@ footer {
     background-color: #fff;
 }
 
-.text-team {
+.text-card {
     font-size: 16px;
 }
 
