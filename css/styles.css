@@ -24,6 +24,7 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em
 }
 p {
     line-height: 1.5;
@@ -33,10 +34,6 @@ p {
 }
 footer {
     background-color: #2e2f42;
-}
-
-footer p {
-    color: #F4F4FD;
 }
 
 .logo {
@@ -131,4 +128,12 @@ footer p {
 
 .team-card {
     background-color: #fff;
+}
+
+.text-team {
+    font-size: 16px;
+}
+
+.footer-text {
+    color:  #F4F4FD;
 }
