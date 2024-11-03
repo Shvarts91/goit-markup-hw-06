@@ -13,9 +13,11 @@ ul {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     color: #2e2f42;
     text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 h3 {
     font-weight: 500;
@@ -26,6 +28,8 @@ h3 {
 p {
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 }
 footer {
     background-color: #2e2f42;
@@ -36,8 +40,9 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     color: #4d5ae5;
+    letter-spacing: 0.03em;
 }
 
 .logo-part {
@@ -47,6 +52,7 @@ footer {
 
 .logo-part-footer {
     color: #f4f4fd;
+    letter-spacing: 0.03em;
 }
 
 .navigation {
@@ -55,13 +61,26 @@ footer {
     line-height: 1.5;
 }
 
+.navigation-link {
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .navigation a:hover,
 .navigation a:focus {
     color: #404bbf;
 }
 
+.block-contacts{
+    font-style: normal;
+}
+
 .contacts {
     line-height: 1.5;
+}
+
+.contacts-link {
+    letter-spacing: 0.02em;
 }
 
 .contacts a:hover,
@@ -77,8 +96,9 @@ footer {
 .title-page {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     color: #fff;
+    letter-spacing: 0.02em;
 }
 
 .title-block-buton {
@@ -88,13 +108,16 @@ footer {
     font-weight: 500;
     line-height: 1.5;
     color: #fff;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
-.title-block-buton:hover {
+.title-block-buton:hover,
+.title-block-buton:focus {
     background-color: #404bbf;
     
 }
+
 
 .block-team {
     background-color: #f4f4fd;
@@ -102,9 +125,6 @@ footer {
     
 }
 
-.title-card-team {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2e2f42;
+.team-card {
+    background-color: #fff;
 }
