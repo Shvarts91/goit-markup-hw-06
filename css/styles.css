@@ -49,7 +49,7 @@ img {
 
 nav {
     display: flex;
-    gap: 76px;
+    align-items: center;
 }
 
 header {
@@ -58,6 +58,10 @@ header {
 
 footer {
     background-color: #2e2f42;
+}
+
+.header {
+    padding: 0 15px;
 }
 
 .section {
@@ -73,7 +77,6 @@ footer {
 }
 
 .header-container {
-    padding: 24px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,6 +90,10 @@ footer {
     line-height: 1.17;
     color: #4d5ae5;
     letter-spacing: 0.03em;
+}
+
+.logo-header{
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -108,6 +115,7 @@ footer {
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .navigation-link {
@@ -157,6 +165,11 @@ footer {
 }
 
 .title-block-buton {
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -173,8 +186,17 @@ footer {
     
 }
 
-.title-lorem{
-    display: none;
+.title-lorem {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; 
 }
 
 .cardlist-first {
@@ -200,10 +222,11 @@ footer {
 .team-card {
     background-color: #fff;
     width: calc((100% - 24px) / 3);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .card-info {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .text-card {
@@ -218,14 +241,15 @@ footer {
 }
 
 .portfolio-info {
+    padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     
 }
 
-.footer-container {
-    padding: 100px 15px;
+.footer-block {
+    padding: 100px 0;
 }
 
 .logo-footer {
