@@ -115,6 +115,9 @@ footer {
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+}
+
+.navigation-item {
     padding: 24px 0;
 }
 
