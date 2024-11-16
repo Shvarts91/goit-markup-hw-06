@@ -397,8 +397,8 @@ footer {
 
 
 
-.card-link:hover .overlay,
-.card-link:focus .overlay {
+.portfolio-card:hover .overlay,
+.portfolio-card:focus .overlay {
     transform: translateY(0%);
 }
 
@@ -440,6 +440,10 @@ footer {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+}
+
+.card-icons-footer {
+    gap: 16px;
 }
 
 .footer-icon:hover,
