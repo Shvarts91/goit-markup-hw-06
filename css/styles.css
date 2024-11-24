@@ -596,15 +596,6 @@ footer {
     flex-direction: column;
 }
 
-.overlay-form label{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    margin-bottom: 4px;
-}
-
 .overlay-form label:last-child{
     margin-bottom: 0;
 }
@@ -616,6 +607,11 @@ footer {
 .label-input {
     line-height: 1.17;
     display: block;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-bottom: 4px;
 }
 
 
